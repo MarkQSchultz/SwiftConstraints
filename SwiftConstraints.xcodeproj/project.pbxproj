@@ -8,35 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04ECE873193FEB3200A8C1B9 /* SwiftConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ECE872193FEB3200A8C1B9 /* SwiftConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04ECE879193FEB3200A8C1B9 /* SwiftConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ECE86D193FEB3200A8C1B9 /* SwiftConstraints.framework */; };
-		04ECE880193FEB3200A8C1B9 /* SwiftConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECE87F193FEB3200A8C1B9 /* SwiftConstraintsTests.swift */; };
 		04ECE88A193FEBA200A8C1B9 /* SwiftConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECE889193FEBA200A8C1B9 /* SwiftConstraints.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04D02D49194294E700DA449A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04ECE864193FEB3200A8C1B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04ECE86C193FEB3200A8C1B9;
-			remoteInfo = SwiftConstraints;
-		};
-		04ECE87A193FEB3200A8C1B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04ECE864193FEB3200A8C1B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04ECE86C193FEB3200A8C1B9;
-			remoteInfo = SwiftConstraints;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04ECE86D193FEB3200A8C1B9 /* SwiftConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ECE871193FEB3200A8C1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ECE872193FEB3200A8C1B9 /* SwiftConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftConstraints.h; sourceTree = "<group>"; };
-		04ECE878193FEB3200A8C1B9 /* SwiftConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04ECE87E193FEB3200A8C1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04ECE87F193FEB3200A8C1B9 /* SwiftConstraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConstraintsTests.swift; sourceTree = "<group>"; };
 		04ECE889193FEBA200A8C1B9 /* SwiftConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04ECE875193FEB3200A8C1B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04ECE879193FEB3200A8C1B9 /* SwiftConstraints.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				04ECE86F193FEB3200A8C1B9 /* SwiftConstraints */,
-				04ECE87C193FEB3200A8C1B9 /* SwiftConstraintsTests */,
 				04ECE86E193FEB3200A8C1B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				04ECE86D193FEB3200A8C1B9 /* SwiftConstraints.framework */,
-				04ECE878193FEB3200A8C1B9 /* SwiftConstraintsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,23 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				04ECE871193FEB3200A8C1B9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		04ECE87C193FEB3200A8C1B9 /* SwiftConstraintsTests */ = {
-			isa = PBXGroup;
-			children = (
-				04ECE87F193FEB3200A8C1B9 /* SwiftConstraintsTests.swift */,
-				04ECE87D193FEB3200A8C1B9 /* Supporting Files */,
-			);
-			path = SwiftConstraintsTests;
-			sourceTree = "<group>";
-		};
-		04ECE87D193FEB3200A8C1B9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				04ECE87E193FEB3200A8C1B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,25 +95,6 @@
 			productReference = 04ECE86D193FEB3200A8C1B9 /* SwiftConstraints.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		04ECE877193FEB3200A8C1B9 /* SwiftConstraintsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04ECE886193FEB3200A8C1B9 /* Build configuration list for PBXNativeTarget "SwiftConstraintsTests" */;
-			buildPhases = (
-				04ECE874193FEB3200A8C1B9 /* Sources */,
-				04ECE875193FEB3200A8C1B9 /* Frameworks */,
-				04ECE876193FEB3200A8C1B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04ECE87B193FEB3200A8C1B9 /* PBXTargetDependency */,
-				04D02D4A194294E700DA449A /* PBXTargetDependency */,
-			);
-			name = SwiftConstraintsTests;
-			productName = SwiftConstraintsTests;
-			productReference = 04ECE878193FEB3200A8C1B9 /* SwiftConstraintsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,10 +106,6 @@
 				TargetAttributes = {
 					04ECE86C193FEB3200A8C1B9 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					04ECE877193FEB3200A8C1B9 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 04ECE86C193FEB3200A8C1B9;
 					};
 				};
 			};
@@ -194,20 +122,12 @@
 			projectRoot = "";
 			targets = (
 				04ECE86C193FEB3200A8C1B9 /* SwiftConstraints */,
-				04ECE877193FEB3200A8C1B9 /* SwiftConstraintsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		04ECE86B193FEB3200A8C1B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04ECE876193FEB3200A8C1B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,28 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04ECE874193FEB3200A8C1B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04ECE880193FEB3200A8C1B9 /* SwiftConstraintsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04D02D4A194294E700DA449A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04ECE86C193FEB3200A8C1B9 /* SwiftConstraints */;
-			targetProxy = 04D02D49194294E700DA449A /* PBXContainerItemProxy */;
-		};
-		04ECE87B193FEB3200A8C1B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04ECE86C193FEB3200A8C1B9 /* SwiftConstraints */;
-			targetProxy = 04ECE87A193FEB3200A8C1B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04ECE881193FEB3200A8C1B9 /* Debug */ = {
@@ -284,7 +183,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,38 +266,6 @@
 			};
 			name = Release;
 		};
-		04ECE887193FEB3200A8C1B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftConstraintsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		04ECE888193FEB3200A8C1B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftConstraintsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,15 +283,6 @@
 			buildConfigurations = (
 				04ECE884193FEB3200A8C1B9 /* Debug */,
 				04ECE885193FEB3200A8C1B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04ECE886193FEB3200A8C1B9 /* Build configuration list for PBXNativeTarget "SwiftConstraintsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04ECE887193FEB3200A8C1B9 /* Debug */,
-				04ECE888193FEB3200A8C1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
