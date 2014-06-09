@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 QZero Labs, LLC. All rights reserved.
 //
 
-import UIKit
-
 extension NSLayoutConstraint {
     
     class func constraintsThatFillWidthWithSubview(subview: UIView) -> NSLayoutConstraint[] {

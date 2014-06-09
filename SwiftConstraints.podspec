@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = File.read('VERSION')
   s.summary          = "A simple framework for constructing AutoLayout constraints in Swift"
   s.homepage         = "https://github.com/MarkQSchultz/SwiftConstraints"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Mark Schultz" => "mark@qzerolabs.com" }
   s.source           = { :git => "https://github.com/MarkQSchultz/SwiftConstraints.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MarkQSchultz'
